@@ -1,29 +1,63 @@
-# Personal portfolio
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Demo</a></h2>
+</p>
 
-Before you begin, ensure you have met the following requirements:
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+***
 
-## Installing vCard
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
-To install **vCard**, follow these steps:
+<p align="center">
+    Light and Dark themes.
+</p>
 
-Linux and macOS:
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
 
-```bash
-sudo git clone https://github.com/alkindivv/vcard-personal-portfolio.git
+## What has inside
+
+- [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
+- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-sergiokopplin-github-io-indigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
+
+## Setup
+
+0. :star: to the project. :metal:
+1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+2. Edit `_config.yml` with your data
+3. Write some posts :bowtie:
+
+To run locally do the following:
+
+1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run:
+```sh
+bundle install
+bundle exec jekyll serve
 ```
+4. Open it in your browser: [http://localhost:4000](http://localhost:4000)
 
-Windows:
+Or run with [docker](https://github.com/BretFisher/jekyll-serve).
 
-```bash
-git clone https://github.com/alkindivv/vcard-personal-portfolio.git
-```
+## Settings
 
-## Contact
+You can customize your site on `_config.yml` file.
 
-If you want to contact me you can reach me at [Twitter](https://x.com/@alkindivv).
+## How To?
 
+Check the [FAQ](./FAQ.md).
+
+---
 ## License
 
-MIT
+[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
